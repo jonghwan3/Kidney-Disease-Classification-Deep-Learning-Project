@@ -112,14 +112,14 @@ DVC
 
 ## 2. Create IAM user for deployment
 
-	#with specific access
+	# with specific access
 
 	1. EC2 access : It is virtual machine
 
 	2. ECR: Elastic Container registry to save your docker image in aws
 
 
-	#Description: About the deployment
+	# Description: About the deployment
 
 	1. Build docker image of the source code
 
@@ -131,7 +131,7 @@ DVC
 
 	5. Lauch your docker image in EC2
 
-	#Policy:
+	# Policy:
 
 	1. AmazonEC2ContainerRegistryFullAccess
 
@@ -147,13 +147,13 @@ DVC
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	# optinal
 
 	sudo apt-get update -y
 
 	sudo apt-get upgrade
 	
-	#required
+	# required
 
 	curl -fsSL https://get.docker.com -o get-docker.sh
 
@@ -193,7 +193,7 @@ python script.py
 
 Run this to export as env variables:
 
-'''bash
+```bash
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/jonghwan3/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
 
@@ -201,4 +201,4 @@ export MLFLOW_TRACKING_USERNAME=jonghwan3
 
 export MLFLOW_TRACKING_PASSWORD=fc19633fab5984c88c31ef74ebc17ebc5feddccc
 
-'''
+```
