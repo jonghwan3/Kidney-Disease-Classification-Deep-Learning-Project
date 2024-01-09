@@ -179,3 +179,26 @@ DVC
 
     ECR_REPOSITORY_NAME = simple-app
 
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/jonghwan3/Kidney-Disease-Classification-Deep-Learning-Project.mlflow \
+MLFLOW_TRACKING_USERNAME=jonghwan3 \
+MLFLOW_TRACKING_PASSWORD=fc19633fab5984c88c31ef74ebc17ebc5feddccc \
+python script.py
+
+Run this to export as env variables:
+
+'''bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/jonghwan3/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
+
+export MLFLOW_TRACKING_USERNAME=jonghwan3
+
+export MLFLOW_TRACKING_PASSWORD=fc19633fab5984c88c31ef74ebc17ebc5feddccc
+
+'''
