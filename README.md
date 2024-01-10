@@ -1,5 +1,9 @@
 # Kidney-Disease-Classification-MLflow-DVC
 
+
+https://github.com/jonghwan3/Kidney-Disease-Classification-Deep-Learning-Project/assets/97586094/a8881aca-aae8-4fc8-a662-c46c1aed27d1
+
+
 ## Workflows
 
 1. Update config.yaml
